@@ -5,6 +5,15 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
+  
+  {
+    title: "Luxury Service",
+    cardImage: "assets/images/project-page/slide1.jpg",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "http://luxury.qq8b5t6vc4-95m329ywz6rv.p.temp-site.link/",
+    Githublink: "https://github.com/namous68/luxury",
+  },
   {
     title: "The Mountain",
     cardImage: "assets/images/project-page/mountain.jpg",
@@ -20,14 +29,7 @@ const projects = [
     Previewlink: "one-million.projets.garage404.com",
     Githublink: "",
   },
-  {
-    title: "Luxury Service",
-    cardImage: "assets/images/project-page/slide1.jpg",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://google.fr",
-    Githublink: "https://github.com/namous68/luxury",
-  },
+ 
   {
     title: "Quizz Poo",
     cardImage: "assets/images/project-page/quizz.jpg",

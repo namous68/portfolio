@@ -5,6 +5,21 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
   {
+    langImage:"assets/images/techstack-page/php.png",
+    langName:"Php",
+    langDesc:"<li>Server side scripting language, widely used for web development. Execute on web servers to creat dynamic web content and interact with database.</li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/symfony.png",
+    langName:"Symfony",
+    langDesc:"<li>Symfony: An open-source PHP web application framework, promoting modular design, MVC architecture, dependency injection, and Twig templating for web development.</li>"
+  },
+  {
+    langImage: "assets/images/techstack-page/react.png",
+    langName: "React",
+    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/html.png",
     langName: "HyperText Markup Language",
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
@@ -32,21 +47,9 @@ const techStack = [
     langName: "Bootstrap",
     langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
   },
-  {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
-  },
-  {
-    langImage:"assets/images/techstack-page/symfony.png",
-    langName:"Symfony",
-    langDesc:"<li>Symfony: An open-source PHP web application framework, promoting modular design, MVC architecture, dependency injection, and Twig templating for web development.</li>"
-  },
-  {
-    langImage:"assets/images/techstack-page/php.png",
-    langName:"Php",
-    langDesc:"<li>Server side scripting language, widely used for web development. Execute on web servers to creat dynamic web content and interact with database.</li>"
-  },
+  
+  
+  
 ];
 
 const displayTechStacksCards = () => {
