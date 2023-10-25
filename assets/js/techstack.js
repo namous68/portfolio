@@ -1,6 +1,6 @@
 AOS.init();
 
-//  Tech Stacks cards
+//  Tech Stacks card
 
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
